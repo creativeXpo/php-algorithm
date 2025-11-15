@@ -1,4 +1,4 @@
-## Steps : 01
+## Method : 01
 
 #### 01. Define a function that accepts one input called numbers, which is an array of integers.
 
@@ -20,7 +20,7 @@
 - Otherwise, return second as the second largest number.
 
 
-## Steps : 02
+## Method : 02
 
 #### 01. Create a function that takes an array of numbers.
 

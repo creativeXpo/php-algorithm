@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // 07. Find the second largest number in an array.
 
-// Style : 01
+// Method : 01
 
 function secondLargest( array $numbers ): ?int {
 
@@ -30,7 +30,7 @@ $arr = [5, 10, 3, 8, 15, 15];
 echo "Second largest number is: " . secondLargest($arr);
 
 
-// Style : 02
+// Method : 02
 
 function secondLargestWithSort(array $numbers): ?int {
     
