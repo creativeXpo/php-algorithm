@@ -20,3 +20,7 @@ function fibonacci(int $n): void {
 
     }
 }
+
+// Example: Generate first 10 Fibonacci numbers
+
+fibonacci(10);
