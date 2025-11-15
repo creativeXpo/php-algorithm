@@ -5,6 +5,7 @@ declare(strict_types=1);
 // 08. Write a PHP script to generate the Fibonacci series up to n terms.
 
 function fibonacci(int $n): void {
+    
     $num1 = 0; 
     $num2 = 1;
 
