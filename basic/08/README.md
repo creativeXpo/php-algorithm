@@ -8,3 +8,5 @@
 #### 06. Calculate the next number by adding `num1` and `num2`, and store it in a variable called `next`.
 #### 07. Update `num1` with the value of `num2`, and `num2` with the value of `next`.
 #### 08. After the loop ends, the complete Fibonacci series will be displayed as the output.
+
+## Method : 02
