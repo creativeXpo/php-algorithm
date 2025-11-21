@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-// 9. Merge two sorted arrays into one sorted array without using built-in sorting functions.
-
 function mergeSortedArrays(array $a, array $b): array {
     $i = 0; 
     $j = 0;
