@@ -67,3 +67,19 @@ $a = [1, 3, 5, 7];
 $b = [2, 4, 6, 8];
 
 print_r(mergeRecursive($a, $b));
+
+// Method 03
+
+function mergeSortedWithSort(array $a, array $b): array
+{
+    $merged = array_merge($a, $b); // combine both arrays
+    sort($merged);                 // sort the merged array
+
+    return $merged;
+}
+
+// Example:
+$a = [1, 3, 5];
+$b = [2, 4, 6];
+
+print_r(mergeSortedWithSort($a, $b));

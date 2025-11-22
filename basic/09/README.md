@@ -22,3 +22,11 @@
 #### 06. Recursively merge the rest of `a` (excluding the first element) with all of `b`.
 #### 07. If the first element of `b` is smaller, place that element at the beginning of the result.
 #### 08. Recursively merge all of `a` with the rest of b (excluding the first element).
+
+
+## Method : 03 
+
+#### 01. Define a function that accepts two inputs called `a` and `b`.
+#### 02. Combine both arrays into one array using `array_merge()`.
+#### 03. Sort the combined array in ascending order using `sort()`.
+#### 04. `return` the final sorted array as the output.
