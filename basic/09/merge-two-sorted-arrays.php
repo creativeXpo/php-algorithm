@@ -44,5 +44,26 @@ $b = [2, 4, 6, 8];
 print_r(mergeSortedArrays($a, $b));
 
 
-// Method: 02
+// Method 02: Recursive
 
+function mergeRecursive(array $a, array $b): array {
+
+    // If one array is empty, return the other
+    if (empty($a)) return $b;
+    if (empty($b)) return $a;
+
+    // Compare first elements
+    if ($a[0] < $b[0]) {
+        // ... means: Take each element from the inner array and insert them individually here.
+        return [$a[0], ...mergeRecursive(array_slice($a, 1), $b)];
+    } else {
+        return [$b[0], ...mergeRecursive($a, array_slice($b, 1))];
+    }
+
+}
+
+// Example:
+$a = [1, 3, 5, 7];
+$b = [2, 4, 6, 8];
+
+print_r(mergeRecursive($a, $b));
