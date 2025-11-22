@@ -54,7 +54,7 @@ function mergeRecursive(array $a, array $b): array {
 
     // Compare first elements
     if ($a[0] < $b[0]) {
-        // ... means: Take each element from the inner array and insert them individually here.
+        // ... Spread Operator Take each element from the inner array and insert them individually here.
         return [$a[0], ...mergeRecursive(array_slice($a, 1), $b)];
     } else {
         return [$b[0], ...mergeRecursive($a, array_slice($b, 1))];

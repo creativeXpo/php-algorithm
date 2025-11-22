@@ -10,3 +10,15 @@
 #### 08. After the comparison loop ends, loop through the remaining elements in `a` and add each one to merged.
 #### 09. Then loop through the remaining elements in `b` and add each one to merged.
 #### 10. Return `merged` as the final sorted output.
+
+
+## Method : 02 - Recursive 
+
+#### 01. Define a function that accepts two inputs called `a` and `b`, which are both sorted arrays.
+#### 02. Check if `a` is empty; if yes, return `b`.
+#### 03. Check if `b` is empty; if yes, return `a`.
+#### 04. Compare the first element of `a` with the first element of `b`.
+#### 05. If the first element of `a` is smaller, place that element at the beginning of the result.
+#### 06. Recursively merge the rest of `a` (excluding the first element) with all of `b`.
+#### 07. If the first element of `b` is smaller, place that element at the beginning of the result.
+#### 08. Recursively merge all of `a` with the rest of b (excluding the first element).
