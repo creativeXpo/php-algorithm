@@ -24,7 +24,7 @@
 #### 08. Recursively merge all of `a` with the rest of b (excluding the first element).
 
 
-## Method : 03 
+## Method : 03 using array_merge & sort
 
 #### 01. Define a function that accepts two inputs called `a` and `b`.
 #### 02. Combine both arrays into one array using `array_merge()`.
